@@ -1,45 +1,20 @@
-# Microphone Recorder to Mp3
+# 24-audio
 
 Record your microphone audio input and get an ```audio/mp3``` file in the end.
 
 # Install
 
-## Yarn
-
-```bash
-yarn add mic-recorder-to-mp3
-```
-
 ## npm
 
 ```bash
-npm install mic-recorder-to-mp3
+npm install 24-audio
 ```
 
-## CDN Usage
-
-You can add via CDN using the address: [https://unpkg.com/mic-recorder-to-mp3@2.1.0](https://unpkg.com/mic-recorder-to-mp3@2.1.0). You can find the minified version in the same address, ex: [https://unpkg.com/mic-recorder-to-mp3@2.1.0/dist/index.min.js](https://unpkg.com/mic-recorder-to-mp3@2.1.0/dist/index.min.js)
-
-**About the version in URL**: Change the URL version to any of our releases.
-
-# Development
-
-- Watch for changes:
-
-```bash
-npm run watch
-```
-
-- Regular build:
-
-```bash
-npm run build
-```
 
 # How to use
 
 ```js
-const MicRecorder = require('mic-recorder-to-mp3');
+const MicRecorder = require('24-audio');
 
 // New instance
 const recorder = new MicRecorder({
@@ -82,6 +57,7 @@ recorder
 This library uses lamejs as a direct dependency. We build our releases with [lamejs](https://github.com/zhuker/lamejs/) built-in, so you don't need to add another dependency.
 
 Thanks to **@zhuker** for writing the lamejs library.
+This project is a Supplementary to the **mic-recorder-to-mp3**.
 
 # License
 
